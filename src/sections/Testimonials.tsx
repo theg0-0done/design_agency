@@ -1,4 +1,5 @@
 import { useState } from "react";
+import profile from '../assets/avatar.png';
 
 function Testimonials() {
   let [current, setCurrent] = useState(0);
@@ -15,70 +16,70 @@ function Testimonials() {
 
   const slides: Slide[] = [
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "1 Amily Stones",
       job: "CEO, Marketing Goru",
       review:
         "Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service",
     },
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "2 Amily Stones",
       job: "CEO, Marketing Goru",
       review:
         "Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service",
     },
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "3 Amily Stones",
       job: "CEO, Marketing Goru",
       review:
         "Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service",
     },
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "4 Amily Stones",
       job: "CEO, Marketing Goru",
       review:
         "Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service",
     },
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "5 Amily Stones",
       job: "CEO, Marketing Goru",
       review:
         "Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service",
     },
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "6 Amily Stones",
       job: "CEO, Marketing Goru",
       review:
         "Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service",
     },
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "7 Amily Stones",
       job: "CEO, Marketing Goru",
       review:
         "Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service",
     },
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "8 Amily Stones",
       job: "CEO, Marketing Goru",
       review:
         "Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service",
     },
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "9 Amily Stones",
       job: "CEO, Marketing Goru",
       review:
         "Thank You for your service. I am very pleased with the result. I have seen exponencial growth in my business and its all thanks to your amazing service",
     },
     {
-      profile: "/src/assets/avatar.png",
+      profile: profile,
       name: "10 Amily Stones",
       job: "CEO, Marketing Goru",
       review:

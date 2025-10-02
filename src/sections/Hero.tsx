@@ -1,3 +1,5 @@
+import heroImage from "../assets/Group 38.png";
+
 function Hero() {
   return (
     <section
@@ -20,8 +22,7 @@ function Hero() {
       </div>
       <img
         className="h-auto w-[80vw] md:max-w-[48vw] lg:max-w-[40vw] xl:w-[40rem]"
-        src="/src/assets/Group 38.png"
-        alt=""
+        src={heroImage}
       />
     </section>
   );

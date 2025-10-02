@@ -1,3 +1,8 @@
+import activity from '/src/assets/Activity.png';
+import heart from '/src/assets/Heart.png';
+import work from '/src/assets/Work.png';
+import arrow from '../assets/right-arrow.png';
+
 function Solutions() {
   interface Card {
     text: string;
@@ -7,17 +12,17 @@ function Solutions() {
 
   const cards: Card[] = [
     {
-      image: "/src/assets/Activity.png",
+      image: activity,
       title: "Grow Your Business",
       text: "We help identify the best ways to improve your business",
     },
     {
-      image: "/src/assets/Heart.png",
+      image: heart,
       title: "Improve brand loyalty",
       text: "We help identify the best ways to improve your business",
     },
     {
-      image: "/src/assets/Work.png",
+      image: work,
       title: "Improve Business Model",
       text: "We help identify the best ways to improve your business",
     },
@@ -50,7 +55,7 @@ function Solutions() {
               <button className="flex h-fit w-fit transform cursor-pointer items-center gap-2 rounded-xl border border-gray-200 px-5 py-2 duration-800 ease-in-out group-hover:bg-orange-500 group-hover:text-white active:text-white max-md:active:bg-gray-600">
                 Learn More
                 <img
-                  src="/src/assets/right-arrow.png"
+                  src={arrow}
                   className="h-4 w-4"
                   alt="right arrow"
                 />

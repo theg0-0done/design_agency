@@ -1,3 +1,8 @@
+import portfolio1 from '../assets/portfolio-1.png';
+import portfolio2 from '../assets/portfolio-2.png';
+import portfolio3 from '../assets/portfolio-3.png';
+import portfolio4 from '../assets/portfolio-4.png';
+
 function Portfilios() {
   return (
     <section
@@ -10,7 +15,7 @@ function Portfilios() {
       </p>
       <div className="my-10 w-full space-y-20 sm:gap-16 md:columns-2 lg:gap-20">
         <div className="flex h-fit w-full flex-col justify-start gap-5">
-          <img className="h-auto" src="/src/assets/portfolio-1.png" alt="" />
+          <img className="h-auto" src={portfolio1} alt="" />
           <h1 className="text-2xl font-semibold">
             Digital Marketing Agency Website
           </h1>
@@ -21,7 +26,7 @@ function Portfilios() {
           </p>
         </div>
         <div className="flex h-fit w-full flex-col justify-start gap-5">
-          <img className="h-auto" src="/src/assets/portfolio-2.png" alt="" />
+          <img className="h-auto" src={portfolio2} alt="" />
           <h1 className="text-2xl font-semibold">
             Digital Marketing Agency Website
           </h1>
@@ -32,7 +37,7 @@ function Portfilios() {
           </p>
         </div>
         <div className="flex h-fit w-full flex-col justify-start gap-5">
-          <img className="h-auto" src="/src/assets/portfolio-3.png" alt="" />
+          <img className="h-auto" src={portfolio3} alt="" />
           <h1 className="text-2xl font-semibold">
             Digital Marketing Agency Website
           </h1>
@@ -43,7 +48,7 @@ function Portfilios() {
           </p>
         </div>
         <div className="flex h-fit w-full flex-col justify-start gap-5">
-          <img className="h-auto" src="/src/assets/portfolio-4.png" alt="" />
+          <img className="h-auto" src={portfolio4} alt="" />
           <h1 className="text-2xl font-semibold">
             Digital Marketing Agency Website
           </h1>
