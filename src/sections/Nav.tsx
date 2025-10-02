@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,14 +28,16 @@ function Nav() {
           >
             Contactus
           </a>
-          <Link>
+          <a href="#">
             <button className="cursor-pointer rounded-xl border border-orange-500 bg-transparent px-6 py-2 text-orange-500 transition duration-500 ease-in-out hover:scale-110 hover:bg-orange-500 hover:text-white">
               Log In
             </button>
-          </Link>
-          <button className="cursor-pointer rounded-xl border bg-orange-500 px-6 py-2 text-white transition duration-500 ease-in-out hover:scale-105 hover:border-orange-500 hover:bg-transparent hover:text-orange-500">
-            Register
-          </button>
+          </a>
+          <a href="#">
+            <button className="cursor-pointer rounded-xl border bg-orange-500 px-6 py-2 text-white transition duration-500 ease-in-out hover:scale-105 hover:border-orange-500 hover:bg-transparent hover:text-orange-500">
+              Register
+            </button>
+          </a>
         </div>
       </div>
       <div className="mx-6 my-4 flex items-center justify-between lg:hidden">
