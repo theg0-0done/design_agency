@@ -1,5 +1,6 @@
 import { useState } from "react";
 import profile from '../assets/avatar.png';
+import arrow from '../assets/down-arrow.png';
 
 function Testimonials() {
   let [current, setCurrent] = useState(0);
@@ -119,7 +120,7 @@ function Testimonials() {
           className="left-0 flex h-12 w-13 cursor-pointer items-center justify-center rounded-full border transition duration-800 ease-in-out hover:border-none hover:bg-emerald-100 md:top-10"
           title="Previous"
         >
-          <img className="rotate-90" src="/src/assets/down-arrow.png" />
+          <img className="rotate-90" src={arrow} />
         </div>
 
         <div className="relative flex w-full items-center justify-center overflow-hidden">
@@ -158,7 +159,7 @@ function Testimonials() {
           className="top-20 right-0 flex h-12 w-13 cursor-pointer items-center justify-center rounded-full border transition-all duration-800 ease-in-out hover:border-transparent hover:bg-emerald-100 active:bg-emerald-300 md:top-10"
           title="Next"
         >
-          <img className="-rotate-90" src="/src/assets/down-arrow.png" />
+          <img className="-rotate-90" src={arrow} />
         </div>
       </div>
     </section>
