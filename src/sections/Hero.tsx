@@ -3,7 +3,7 @@ import heroImage from "../assets/Group 38.png";
 function Hero() {
   return (
     <section
-      className="mt-[12vh] flex h-fit w-full flex-col items-center bg-emerald-100 px-12 md:flex-row lg:px-20"
+      className="pt-[12vh] flex h-fit w-full flex-col items-center bg-emerald-100 px-12 md:flex-row lg:px-20"
       id="hero"
     >
       <div className="my-6 flex flex-col items-center gap-4 md:w-[50vw] md:items-start">

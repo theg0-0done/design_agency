@@ -6,7 +6,7 @@ function Footer() {
           <a className="text-2xl font-semibold text-black" href="#">
             Design<span className="font-bold text-white">AGENCY</span>
           </a>
-          <p className="w-[32ch]">
+          <p className="md:w-[32ch]">
             Some footer text about the Agency. Just a little description to help
             people understand you better
           </p>
